@@ -1,0 +1,47 @@
+.header{
+    padding-top: 329px;
+    text-align: center;
+    overflow: hidden;
+}
+.header__title{
+    line-height: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.header__desc{
+    max-width: 850px;
+    margin: 72px auto;
+}
+.header__graphics{
+    position: relative;
+}
+.header__angular1{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    right: 0;
+    background: conic-gradient(from 180deg at 50% 50%, rgb(13, 197, 255), rgb(43, 65, 107));
+}
+.header__angular2{
+    width: 400px;
+    height:400px;
+    border-radius: 50%;
+    position:absolute;
+    top:0;
+    right:0;
+    background:conic-gradient(from 180deg at 50% 50%, rgb(0, 255, 209), rgba(0, 255, 209, 0));
+    animation: rotation 60s linear 0s infinite;
+}
+.header__img{
+    width: 100%;
+}
+@keyframes rotation{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+} /* остановилась на анимации кружков - завершена */ 

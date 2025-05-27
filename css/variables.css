@@ -1,0 +1,12 @@
+:root{
+    --font-color1:#000000;
+    --font-color2:#FFFFFF;
+    --accent-color:#0D6EFD;
+    --card-color:#222222;
+    --bg-color:#FFFFFF;
+    --grad1: radial-gradient(192.63% 141.42% at 0% 0%,rgb(52, 121, 255),rgb(180, 98, 244) 100%);
+    --grad2:radial-gradient(191.23% 141.42% at 0% 0%,rgb(255, 69, 11),rgb(180, 98, 244) 100%);
+    --grad3:radial-gradient(196.35% 141.42% at 0% 0%,rgb(255, 140, 33),rgb(255, 219, 92) 100%);
+    --vrpro-background: #2B2A32;
+    --accessories-bg-card:#F0F0F0;
+}

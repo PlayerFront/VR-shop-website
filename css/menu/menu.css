@@ -1,0 +1,74 @@
+.menu{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background: var(--bg-color);
+    border-bottom: 1px solid var(--font-color1);
+    z-index: 1000;
+}
+.menu__main{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 129px;
+    padding: 49px 70px;
+}
+.menu__rolled{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 34px;
+    height: calc(2rem+27px);
+    transition: 0.3s;
+}
+.menu__toggler{
+    position:fixed;
+    visibility:hidden;
+}
+.menu__toggler:checked ~ .menu__rolled{
+    height: 0;
+    margin-top: 0;
+    overflow:hidden;
+}
+.menu__toggler:checked ~ .menu__main .menu__buttons .menu__btn-toggle::before{
+    transform: rotateX(180deg) translate(calc(-100% - 10px), 50%);
+}
+.menu__btn-toggle{
+    cursor: pointer;
+    position: relative;
+    font-size: 1rem;
+    margin-right: 50px;
+    color: var(--accent-color);
+}
+.menu__btn-toggle::before{
+    content: "";
+    display:block;
+    position: absolute;
+    background: url('img/menu-open-arrow.svg') center/cover no-repeat;
+    height: 30px;
+    width: 30px;
+    top:50%;
+    left: 0;
+    transform: translate(calc(-100% - 10px), -50%);
+    transition: 0.3s;
+}
+.btn-primary{
+    padding: 13px 40px;
+}
+.menu__roll-item{
+    text-align:center;
+    text-decoration: none;
+}
+.menu__roll-item p{
+    color: var(--font-color1);
+    font-weight: 900;
+    font-size: 1rem;
+    margin-top:18px;
+}
+.menu__roll-item:last-of-type img{
+    height: 27px;
+}
+.menu__roll-item:hover p{
+    color: var(--accent-color);
+}

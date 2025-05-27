@@ -1,0 +1,32 @@
+@media screen and (max-width:440px) {
+    h1, h2{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    p,label{
+        font-size: 1rem;
+    }
+    .container{
+        padding: 0;
+    }
+    .menu{
+        max-width:440px;
+    }
+    .menu__main{
+        flex-direction: column;
+        justify-content: center;
+        gap:50px;
+        height: auto;
+        padding: 20px 0;
+    }
+    .menu__rolled{
+        flex-direction: column;
+    }
+    .btn-primary{
+        padding: 10px 20px;
+    }
+}

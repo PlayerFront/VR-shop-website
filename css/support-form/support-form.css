@@ -1,0 +1,26 @@
+.support-form{
+    padding: 92px 125px;
+}
+.support-form h2{
+    width: 540px;
+    margin-left: auto;
+    line-height: 100%;
+    text-align: right;
+}
+.support-form hr{
+    width: 330px;
+    margin: 32px 0 52px auto;
+    height: 3px;
+    background: var(--font-color1);
+    opacity: 1;
+}
+.support-form label{
+    font-weight:900;
+}
+.form-control, .form-select{
+    margin-bottom:30px;
+}
+.support__btn{
+    display: block;
+    margin:0 auto;
+}

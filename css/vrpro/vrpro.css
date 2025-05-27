@@ -1,0 +1,71 @@
+.vrpro-body{
+    background: var(--vrpro-background);
+}
+.vrpro-body__grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 619px);
+    gap: 20px;
+    grid-template-areas: 'vrp-t vrp-t' 'vrp-h vrp-h' 'vrp-c vrp-c' 'vrp-tech .' 'vrp-tech vrp-b';
+}
+.vrpro-body__grid h3{
+    margin-bottom: 42px;
+}
+.vrpro-body_title{
+    grid-area: vrp-t;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    color: var(--font-color2);
+}
+.vrpro-body_title h1{
+    width:20%;
+    line-height: 100%;
+    border-bottom: 1px solid var(--font-color2);
+    padding-bottom: 54px;
+}
+.vrpro-body_hardware{
+    grid-area:vrp-h;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    color: var(--font-color2);
+}
+.vrpro-body_hardware p{
+    justify-self: flex-end;
+    width: 70%;
+}
+.vrpro-body_control{
+    grid-area:vrp-c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    color: var(--font-color2);
+}
+.vrpro-body_control p{
+    justify-self: flex-end;
+    width: 70%;
+}
+.vrpro-body_technical{
+    grid-area: vrp-tech;
+    background: var(--font-color2);
+    padding: 55px 42px;
+}
+.vrpro-body_buy{
+    grid-area: vrp-b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 55px 42px;
+    color: var(--font-color2);
+    background: radial-gradient(191.23% 141.42% at 0% 0%,rgb(255, 69, 11),rgb(180, 98, 244) 100%);
+}
+.vrpro-body_buy a{
+    font-size: 2rem;
+    padding: 32px 100px;
+}

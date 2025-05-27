@@ -1,0 +1,29 @@
+.form__container{
+}
+.form__container h2{
+    width: 440px;
+    margin-left: auto;
+    line-height: 100%;
+    text-align: right;
+}
+.form__container hr{
+    width: 330px;
+    margin: 32px 0 52px auto;
+    height: 3px;
+    background: var(--font-color1);
+    opacity: 1;
+}
+.form label, .form p{
+    font-weight: 900;
+}
+.form div:nth-of-type(3) label{
+    font-size: 1rem;
+    font-weight:300;
+}
+.form-control, .form-select, .form div:nth-of-type(4) {
+    margin-bottom: 30px;
+}
+.form__btn{
+    display: block;
+    margin: 0 auto;
+}
