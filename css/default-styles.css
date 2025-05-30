@@ -58,11 +58,11 @@ p, label{
         font-size: 2rem;
         font-weight: 700;
     }
-    h3{
+    h3, h4 {
         font-size: 1rem;
         font-weight: 700;
     }
-    p, label{
+    p, label, a{
         font-size: 1rem;
     }
 }
