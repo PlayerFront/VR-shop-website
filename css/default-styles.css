@@ -53,3 +53,16 @@ p, label{
     font-size: 2rem;
     font-weight: 300;
 }
+@media screen and (max-width:440px) {
+    h1, h2{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    p, label{
+        font-size: 1rem;
+    }
+}

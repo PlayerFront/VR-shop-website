@@ -7,7 +7,7 @@
         font-size: 1rem;
         font-weight: 700;
     }
-    p,label{
+    p, label{
         font-size: 1rem;
     }
     .container{
@@ -28,5 +28,26 @@
     }
     .btn-primary{
         padding: 10px 20px;
+    }
+    .header {
+        padding-top:200px;
+    }
+    .header__angular1, .header__angular2 {
+        width: 100px;
+        height: 100px;
+    }
+    .products__title {
+        margin-bottom: 30px;
+    }
+    .products__content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 'vrl' 'vrp' 'a' 'm';
+    }
+    .products_vrpro p{
+        margin: 20px 0;
+    }
+    .products__item-text {
+        width: 100%;  
     }
 }
