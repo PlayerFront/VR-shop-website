@@ -21,6 +21,8 @@
         padding: 0;
     }
 
+    /* Main page */
+
     .menu {
         max-width: 440px;
     }
@@ -167,24 +169,53 @@
         align-items: flex-start;
         width: fit-content;
     }
+
     .footer_social svg {
         font-size: 70px;
         margin-left: 25px;
     }
+
     .footer_help {
         align-items: flex-start;
         text-align: left;
         width: 350px;
     }
+
     .footer_help h3 {
         width: fit-content;
         text-align: left;
         font-size: 1.5rem;
     }
+
     .footer_help p {
         width: 100%;
     }
+
     .footer_help a {
         padding: 14px 73px;
+    }
+
+    /* VR Glasses Light */
+
+    .vrlight-body__grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, minmax(200px, max-content));
+        grid-template-areas: 'vrl-t' 'vrl-h' 'vrl-c' 'vrl-tech' 'vrl-b';
+    }
+    .vrlight-body__item {
+        max-width: 440px
+    }
+    .vrlight-body__item img {
+        height: 350px;
+        width: 400px;
+    }
+    .vrlight-body_title, .vrlight-body_hardware, .vrlight-body_control {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start; 
+        text-align: left;
+    }
+    .vrlight-body_technical{
+        max-width: 400px;
     }
 }
