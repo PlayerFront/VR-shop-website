@@ -205,11 +205,12 @@
 
     .vrlight-body__item {
         width: 90%;
+        margin: 0 auto;
     }
 
     .vrlight-body__item img {
-        height: 350px;
-        width: 400px;
+        height: 250px;
+        width: 90%;
     }
 
     .vrlight-body_title,
@@ -220,15 +221,64 @@
         align-items: flex-start;
         text-align: left;
     }
-    
+
     .vrlight-body_technical {
         margin: 0 auto;
     }
-    .vrlight-body_buy{
+
+    .vrlight-body_buy {
         align-items: center;
         margin: 0 auto;
     }
+
     .vrlight-body_buy a {
+        font-size: 1rem;
+        padding: 16px 50px;
+    }
+
+    /* VR Glasses PRO */
+
+    .vrpro-body__grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, minmax(200px, max-content));
+        grid-template-areas: 'vrp-t' 'vrp-h' 'vrp-c' 'vrp-tech' 'vrp-b';
+    }
+
+    .vrpro-body__item {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .vrpro-body__item img {
+        height: 250px;
+        width: 90%;
+    }
+
+    .vrpro-body_title,
+    .vrpro-body_hardware,
+    .vrpro-body_control {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .vrpro-body_title p,
+    .vrpro-body_hardware p,
+    .vrpro-body_control p {
+        justify-self: flex-start;
+    }
+
+    .vrpro-body_technical {
+        margin: 0 auto;
+    }
+
+    .vrpro-body_buy {
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .vrpro-body_buy a {
         font-size: 1rem;
         padding: 16px 50px;
     }
