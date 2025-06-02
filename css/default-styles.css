@@ -33,13 +33,14 @@ html{
     margin: 0 auto;
     padding: 50px 15px;
 }
+/* устаревшая кнопка "Назад"
 .button_back{
     display: inline-block;
     position: fixed;
     top:50%;
     left: 25px;
     z-index: 1111;
-}
+} */
 h1, h2{
     font-size: 4rem;
     line-height: 70%;
@@ -52,6 +53,15 @@ h3{
 p, label{
     font-size: 2rem;
     font-weight: 300;
+}
+.home-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.home-button span {
+    font-size: 1.5rem;
 }
 @media screen and (max-width:440px) {
     h1, h2{

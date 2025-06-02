@@ -202,20 +202,34 @@
         grid-template-rows: repeat(5, minmax(200px, max-content));
         grid-template-areas: 'vrl-t' 'vrl-h' 'vrl-c' 'vrl-tech' 'vrl-b';
     }
+
     .vrlight-body__item {
-        max-width: 440px
+        width: 90%;
     }
+
     .vrlight-body__item img {
         height: 350px;
         width: 400px;
     }
-    .vrlight-body_title, .vrlight-body_hardware, .vrlight-body_control {
+
+    .vrlight-body_title,
+    .vrlight-body_hardware,
+    .vrlight-body_control {
         flex-direction: column-reverse;
         justify-content: flex-start;
-        align-items: flex-start; 
+        align-items: flex-start;
         text-align: left;
     }
-    .vrlight-body_technical{
-        max-width: 400px;
+    
+    .vrlight-body_technical {
+        margin: 0 auto;
+    }
+    .vrlight-body_buy{
+        align-items: center;
+        margin: 0 auto;
+    }
+    .vrlight-body_buy a {
+        font-size: 1rem;
+        padding: 16px 50px;
     }
 }

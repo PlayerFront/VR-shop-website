@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VR Light</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <section class="vrlight-body">
-        <a class="button_back btn btn-outline-primary" href="index.html">Назад</a>
+        <!-- <a class="button_back btn btn-outline-primary" href="index.html">Назад</a> устаревшая кнопка "Назад" -->
         <div class="container">
             <div class="vrlight-body__grid">
                 <div class="vrlight-body__item vrlight-body_title">
@@ -21,14 +24,16 @@
                     <img src="img/vr-light-page-img2.png" alt="вид VR очков">
                     <div>
                         <h3>Трэкинг и железо</h3>
-                        <p>Трехмерное отслеживание. Предупреждение о стенах. Отсутствие проводов и мощный процессор. Возможность подключения к Пк или использования самостоятельно</p>
+                        <p>Трехмерное отслеживание. Предупреждение о стенах. Отсутствие проводов и мощный процессор.
+                            Возможность подключения к Пк или использования самостоятельно</p>
                     </div>
                 </div>
                 <div class="vrlight-body__item vrlight-body_control">
                     <img src="img/vr-light-page-img3.png" alt="вид контроллеров">
                     <div>
                         <h3>Управление</h3>
-                        <p>2 универсальных контроллера, для отслеживания рук. Геймпады имеют физические кнопки для улучшения вашего игрового опыта</p>
+                        <p>2 универсальных контроллера, для отслеживания рук. Геймпады имеют физические кнопки для
+                            улучшения вашего игрового опыта</p>
                     </div>
                 </div>
                 <div class="vrlight-body__item vrlight-body_technical">
@@ -56,5 +61,17 @@
             </div>
         </div>
     </section>
+    <button id="homeButton" class="home-button btn btn-primary">
+        <span>⌂ </span> На главную
+    </button>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const homeButton = document.getElementById('homeButton');
+
+            homeButton.addEventListener ('click', function () {
+                window.location.href = 'index.html';
+            });
+        });
+    </script>
 </body>
 </html>
