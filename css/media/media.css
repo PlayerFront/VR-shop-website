@@ -282,4 +282,40 @@
         font-size: 1rem;
         padding: 16px 50px;
     }
+
+    /* Accessories */
+
+    .accessories__grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(13, minmax(200px, max-content));
+        grid-template-areas: 'a-c1' 'a-c2' 'a-c3' 'a-c4' 'a-c5' 'a-c6' 'a-c7' 'a-c8' 'a-c9' 'a-c10' 'a-c11' 'a-c12' 'a-c13';
+    }
+
+    .a-card {
+        padding: 15px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .a-card p {
+        max-width: 55%;
+        min-width: 50%;
+    }
+    .a-card1{
+        justify-content: space-around;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .a-card1 hr {
+        width: 30%;
+        margin-top: 30px;
+    }
+    .a-card2, .a-card3, .a-card4, .a-card5, .a-card6, .a-card7, .a-card8, .a-card12{
+        background-position: left;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: right;
+        background-size: contain;
+    }
+
 }

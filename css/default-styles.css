@@ -3,36 +3,43 @@
     src: url('../font/Inter/Inter-Light.ttf') format('opentype');
     font-weight: 300;
 }
+
 @font-face {
     font-family: 'Inter';
     src: url('../font/Inter/Inter-Regular.ttf') format('opentype');
     font-weight: 400;
 }
+
 @font-face {
     font-family: 'Inter';
     src: url('../font/Inter/Inter-Bold.ttf') format('opentype');
     font-weight: 700;
 }
+
 @font-face {
     font-family: 'Inter';
     src: url('../font/Inter/Inter-Black.ttf') format('opentype');
     font-weight: 900;
 }
-*{
-    margin:0;
-    padding:0;
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Inter';
 }
-html{
+
+html {
     font-size: 20px;
 }
-.container{
+
+.container {
     max-width: 1600px;
     width: 100%;
     margin: 0 auto;
     padding: 50px 15px;
 }
+
 /* устаревшая кнопка "Назад"
 .button_back{
     display: inline-block;
@@ -41,38 +48,52 @@ html{
     left: 25px;
     z-index: 1111;
 } */
-h1, h2{
+h1,
+h2 {
     font-size: 4rem;
     line-height: 70%;
     font-weight: 900;
 }
-h3{
+
+h3 {
     font-size: 3rem;
     font-weight: 900;
 }
-p, label{
+
+p,
+label {
     font-size: 2rem;
     font-weight: 300;
 }
+
 .home-button {
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 1000;
 }
+
 .home-button span {
     font-size: 1.5rem;
 }
+
 @media screen and (max-width:440px) {
-    h1, h2{
+
+    h1,
+    h2 {
         font-size: 2rem;
         font-weight: 700;
     }
-    h3, h4 {
+
+    h3,
+    h4 {
         font-size: 1rem;
         font-weight: 700;
     }
-    p, label, a{
+
+    p,
+    label,
+    a {
         font-size: 1rem;
     }
 }
