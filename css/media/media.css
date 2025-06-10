@@ -296,26 +296,57 @@
         width: 90%;
         margin: 0 auto;
     }
+
     .a-card p {
         max-width: 55%;
         min-width: 50%;
     }
-    .a-card1{
+
+    .a-card1 {
         justify-content: space-around;
         align-items: flex-start;
         text-align: left;
     }
+
     .a-card1 hr {
         width: 30%;
         margin-top: 30px;
     }
-    .a-card2, .a-card3, .a-card4, .a-card5, .a-card6, .a-card7, .a-card8, .a-card12{
+
+    .a-card2,
+    .a-card3,
+    .a-card4,
+    .a-card5,
+    .a-card6,
+    .a-card7,
+    .a-card8,
+    .a-card12,
+    .a-card10 {
         background-position: left;
+        display: flex;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
         text-align: right;
         background-size: contain;
+    }
+
+    .a-card9 {
+        background-size: 60%;
+        background-position: left;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: right;
+    }
+    .a-card13 {
+        align-items: center;
+        text-align: center;
+        padding: 55px 42px;
+    }
+    .a-card13 a {
+        font-size: 1rem;
+        padding: 16px 50px;
     }
 
 }
