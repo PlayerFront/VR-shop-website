@@ -339,14 +339,48 @@
         align-items: center;
         text-align: right;
     }
+
     .a-card13 {
         align-items: center;
         text-align: center;
         padding: 55px 42px;
     }
+
     .a-card13 a {
         font-size: 1rem;
         padding: 16px 50px;
     }
+}
 
+@media screen and (min-width: 441px) and (max-width: 1024px) {
+
+    h1,
+    h2 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    h3,
+    h4 {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    p,
+    label {
+        font-size: 1rem;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    /* Main page */
+
+    .menu {
+        width: 90%;
+    }
+    .header {
+        padding-top: 200px;
+    }
 }
